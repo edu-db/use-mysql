@@ -1,0 +1,14 @@
+{
+  "name": "use-mysql",
+  "version": "1.0.0",
+  "description": "How to use mysql in your node.js app. Step by step tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Boldak",
+  "license": "ECL 2.0 License",
+  "dependencies": {
+    "mysql2": "^2.3.2"
+  }
+}
