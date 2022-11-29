@@ -1,7 +1,7 @@
 // get the client
 const mysql = require('mysql2');
 
-const connectionUrl = 'mysql://root:aabold@localhost:3306/x4mspp0ssyvlauv8'
+const connectionUrl = 'mysql://root:@localhost:3306/x4mspp0ssyvlauv8'
 
 // create the connection to database
 const connection = mysql.createConnection({

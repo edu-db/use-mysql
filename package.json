@@ -1,14 +1,21 @@
 {
   "name": "use-mysql",
   "version": "1.0.0",
-  "description": "How to use mysql in your node.js app. Step by step tutorial",
+  "description": "How to use mysql in your node.js app. Step by step tutorial.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./RESTfull/server"
   },
+
   "author": "Andrey Boldak",
   "license": "ECL 2.0 License",
   "dependencies": {
-    "mysql2": "^2.3.2"
+    "mysql2": "^2.3.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
   }
 }

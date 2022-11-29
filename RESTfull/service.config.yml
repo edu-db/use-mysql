@@ -1,0 +1,6 @@
+service: 
+  name: PRODUCT RESTfull SERVICE
+  port: 8080
+
+db:
+  uri: mysql://root:@localhost:3306/x4mspp0ssyvlauv8
