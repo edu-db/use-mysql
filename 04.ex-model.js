@@ -1,5 +1,5 @@
 const mysql = require('mysql2/promise');
-const connectionUrl = 'mysql://root:aabold@localhost:3306/x4mspp0ssyvlauv8'
+const connectionUrl = 'mysql://root:@localhost:3306/x4mspp0ssyvlauv8'
 
 
 const pool = mysql.createPool({ uri: connectionUrl });
